@@ -62,7 +62,7 @@ footer {
   height: 440px;
 }
 .header-container:hover .header-banner {
-  transform: scale(1.2);
+  transform: scale(1.2) rotate(15deg);
   transition: transform 1s ease-in;
 }
 
@@ -156,4 +156,59 @@ footer {
 }
 .social .icon {
   color: #969bab;
+}
+
+/* -----------------------------------
+    Media query section 
+--------------------------------------*/
+
+/* Mobile devices only */
+
+@media only screen and (max-width: 688px) {
+  .header-container {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .header-banner img {
+    width: 100%;
+    height: 100%;
+  }
+  .header-container:hover .header-banner {
+    transform: scale(1);
+  }
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player {
+    flex-direction: column;
+  }
+  .footer-container {
+    width: 100%;
+  }
+}
+
+/* Tablet devices only*/
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .header-container {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .header-banner img {
+    width: 100%;
+    height: 100%;
+  }
+  .header-container:hover .header-banner {
+    transform: scale(1);
+  }
+  /* .header-title {
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 50px;
+  } */
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
