@@ -190,6 +190,10 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .logo img {
+    width: 80%;
+    height: 80%;
+  }
 }
 
 /* Tablet devices only*/
