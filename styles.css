@@ -1,5 +1,7 @@
 /* -----------------------------------
+
     All fonts and common style section 
+
 -------------------------------------*/
 body {
   font-family: "Poppins", sans-serif;
@@ -14,7 +16,9 @@ footer {
 }
 
 /* -----------------------------------
+
     Header style section 
+
 --------------------------------------*/
 
 .header-container {
@@ -67,7 +71,9 @@ footer {
 }
 
 /* -----------------------------------
+
     Players style section 
+
 --------------------------------------*/
 
 .players {
@@ -104,7 +110,9 @@ footer {
 } */
 
 /* -----------------------------------
+
     Media & social network section 
+
 --------------------------------------*/
 
 .footer-item {
@@ -112,7 +120,7 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-.media-container {
+.sponser-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,7 +167,9 @@ footer {
 }
 
 /* -----------------------------------
+
     Media query section 
+
 --------------------------------------*/
 
 /* Mobile devices only */
@@ -186,7 +196,7 @@ footer {
   .player {
     flex-direction: column;
   }
-  .media-container {
+  .sponser-container {
     display: flex;
     flex-direction: column;
   }
